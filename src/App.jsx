@@ -1,13 +1,13 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import About from "./components/about";
+
 import Technologies from "./components/Technologies";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contacts from "./components/Contacts";
 
-
+import About from "./components/About";
 
 const App = () => {
   return (
