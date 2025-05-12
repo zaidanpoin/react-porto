@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/kertwangi.png";  
  // Replace with your actual image paths
 import studentAssessmentImage from "../assets/projects/studentAssessmentImage.png";
 import warehouseTelesandiImage from "../assets/projects/warehouseTelesandiImage.png";
@@ -58,6 +59,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "desakertawangi.com",
+    image: project5,
+    description:
+      "DesaKertawangi.com is a comprehensive village website designed to enhance community engagement and streamline administrative processes. Built with Laravel, it offers features such as news updates, event management, and a directory of village services. The platform empowers residents with easy access to information and fosters transparency in local governance.",
+    technologies: ["Laravel", "PHP", "MySQL", "PhpMyAdmin","Tailwind CSS"],
+    timePeriod: "Januari 2025 - Februari 2025",
+  },
   {
     title: "Sales System Application",
     image: project1,
